@@ -125,10 +125,12 @@ blockquote {
 .work h3 {
     font-size: 22px;
     text-align: center;
+    margin-top: 0;
 }
 
 .work p, .plus p {
     font-size: 18px;
+    text-align: justify;
 }
 
 .plus .col-sm-6 {
