@@ -47,7 +47,7 @@ Rails.application.configure do
   config.log_level = :error
 
   # Prepend all log lines with the following tags.
-  config.log_tags = [ :request_id ]
+  config.log_tags = [:request_id]
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
@@ -55,7 +55,7 @@ Rails.application.configure do
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "pushinka48_#{Rails.env}"
-  config.action_mailer.perform_caching = false
+  # config.action_mailer.perform_caching = false
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
@@ -75,12 +75,12 @@ Rails.application.configure do
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
-  if ENV["RAILS_LOG_TO_STDOUT"].present?
-    logger           = ActiveSupport::Logger.new(STDOUT)
+  if ENV['RAILS_LOG_TO_STDOUT'].present?
+    logger = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
     config.logger = ActiveSupport::TaggedLogging.new(logger)
   end
 
   # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
+  # config.active_record.dump_schema_after_migration = false
 end

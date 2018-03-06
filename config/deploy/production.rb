@@ -39,8 +39,8 @@ set :stage, :production
 # Global options
 # --------------
 set :ssh_options, {
-    keys: %w(/home/kortirso/.ssh/id_rsa),
-    forward_agent: true,
-    auth_methods: %w(publickey password),
-    port: 2999
+  keys: %w(/home/kortirso/.ssh/id_rsa),
+  forward_agent: true,
+  auth_methods: %w(publickey password),
+  port: 2999
 }

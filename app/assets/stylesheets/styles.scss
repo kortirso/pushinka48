@@ -1,195 +1,195 @@
 @font-face {
-    font-family: 'Linux Biolinum O';
-    src: font-url('LinBiolinum.otf') unquote("format('opentype')");
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Linux Biolinum O';
+  src: font-url('LinBiolinum.otf') unquote("format('opentype')");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic');
 
 html, body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: #e4f5fc !important;
-    background: linear-gradient(to bottom,  hsla(198,80%,94%,1) 0%,hsla(196,64%,77%,1) 100%) !important;
-    position: relative;
-    font-family: "Ubuntu", sans-serif !important;
-    font-size: 20px !important;
-    color: #4f536c !important;
-    h1, h2, h3 {
-        font-family: 'Linux Biolinum O', sans-serif;
-    }
+  background: #e4f5fc !important;
+  background: linear-gradient(to bottom, hsla(198,80%,94%,1) 0%, hsla(196,64%,77%,1) 100%) !important;
+  position: relative;
+  font-family: "Ubuntu", sans-serif !important;
+  font-size: 20px !important;
+  color: #4f536c !important;
+  h1, h2, h3 {
+    font-family: 'Linux Biolinum O', sans-serif;
+  }
 }
 
 .banner {
-    box-shadow: 0 0 20px #000000;
+  box-shadow: 0 0 20px #000000;
+  position: relative;
+  overflow: hidden;
+  img {
     position: relative;
-    overflow: hidden;
-    img {
-        position: relative;
-        min-width: 960px;
-        min-height: 450px;
-    }
+    min-width: 960px;
+    min-height: 450px;
+  }
 }
 
 .intro-text {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    padding: 15% 0 0 7%;
-    color: #FFF;
-    background: rgba(0,0,0,0.2);
-    h1 {
-        margin-bottom: 20px;
-        font-size: 60px;
-        text-transform: uppercase;
-    }
-    p {
-        font-size: 30px;
-    }
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15% 0 0 7%;
+  color: #FFF;
+  background: rgba(0,0,0,0.2);
+  h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 30px;
+  }
 }
 
 .container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .carousel-control.left, .carousel-control.right {
-    background: none;
-    color: #000;
-    opacity: 1;
+  background: none;
+  color: #000;
+  opacity: 1;
 }
 
 .carousel-caption {
-    padding-bottom: 15px;
-    p {
-        color: #000;
-        box-shadow: 1px 1px 3px #FFF;
-    }
+  padding-bottom: 15px;
+  p {
+    color: #000;
+    box-shadow: 1px 1px 3px #FFF;
+  }
 }
 
 .carousel-indicators {
-    bottom: 5px;
-    li {
-        background: #000;
-        border-color: #000;
-    }
+  bottom: 5px;
+  li {
+    background: #000;
+    border-color: #000;
+  }
 }
 
 #mySlider .carousel-caption {
-    right: 15%;
-    left: 15%;
-    padding-bottom: 40px;
-    text-align: left;
-    color: #4f536c;
-    box-shadow: none;
+  right: 15%;
+  left: 15%;
+  padding-bottom: 40px;
+  text-align: left;
+  color: #4f536c;
+  box-shadow: none;
 }
 
 blockquote {
-    padding-top: 0;
-    text-shadow: none;
-    font-size: 22px;
-    h4 {
-        font-family:"Linux Biolinum O", sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-    }
+  padding-top: 0;
+  text-shadow: none;
+  font-size: 22px;
+  h4 {
+    font-family:"Linux Biolinum O", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
 
 .studio p {
-    font-family: "Linux Biolinum O", cursive;
-    font-weight: bold;
-    text-align: left;
-    font-size: 60px;
+  font-family: "Linux Biolinum O", cursive;
+  font-weight: bold;
+  text-align: left;
+  font-size: 60px;
 }
 
 .caption, .work, .plus, .about, .contacts {
-    margin: 20px;
+  margin: 20px;
 }
 
 .caption h2, .work h2, .plus h2, .about h2, .contacts h2 {
-    margin: 25px;
-    text-align: center;
-    color: #e12313;
-    font-size: 36px;
+  margin: 25px;
+  text-align: center;
+  color: #e12313;
+  font-size: 36px;
 }
 
 .work div {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 .work h3 {
-    font-size: 22px;
-    text-align: center;
-    margin-top: 0;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0;
 }
 
 .work p, .plus p {
-    font-size: 18px;
-    text-align: justify;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .plus .col-sm-6 {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .plus h3 {
-    font-size: 26px;
-    margin: 25px 0;
-    color: #e12313;
+  font-size: 26px;
+  margin: 25px 0;
+  color: #e12313;
 }
 
 .about p, .caption p, .work p, .plus p {
-    text-indent: 20px;
+  text-indent: 20px;
 }
 
 .plus img {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .plus h3 {
-    margin: 10px auto;
-    text-align: center;
+  margin: 10px auto;
+  text-align: center;
 }
 
 .contacts p span {
-    color: #cd3e36;
+  color: #cd3e36;
 }
 
 .face {
-    border-radius: 50%;
-    border: 3px solid #AAA;
+  border-radius: 50%;
+  border: 3px solid #AAA;
 }
 
 .map span > ymaps {
-    border: 3px solid #AAA;
+  border: 3px solid #AAA;
 }
 
 .footer {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .footer p {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 #yandex {
-    display: none;
+  display: none;
 }
 
 #yandex a {
-    width: 88px;
-    height: 31px;
-    border: 0;
+  width: 88px;
+  height: 31px;
+  border: 0;
 }
 
 #y-img {
-    position: absolute;
-    left: -9999px;
+  position: absolute;
+  left: -9999px;
 }
 
 @media (min-width: 62em) and (max-width: 75em) { /* Размер экрана от 992 до 1200 пикселей */
@@ -197,41 +197,41 @@ blockquote {
 }
 
 @media (min-width: 48em) and (max-width: 61.938em) { /* Размер экрана от 768 до 992 пикселей */
-    .intro-text h1 {
-        font-size: 40px;
-    }
-    
-    .intro-text p {
-        font-size: 20px;
-    }
-    
-    .caption h2, .work h2, .plus h2, .about h2, .contacts h2 {
-        font-size: 30px;
-    }
+  .intro-text h1 {
+    font-size: 40px;
+  }
+  
+  .intro-text p {
+    font-size: 20px;
+  }
+  
+  .caption h2, .work h2, .plus h2, .about h2, .contacts h2 {
+    font-size: 30px;
+  }
 }
 
 @media  (max-width: 47.938em) { /* Размер экрана до 768 пикселей */ 
-    .intro-text {
-        padding-top: 10%;
-    }
+  .intro-text {
+    padding-top: 10%;
+  }
 
-    .intro-text h1 {
-        font-size: 40px;
-    }
-    
-    .intro-text p {
-        font-size: 20px;
-    }
-    
-    .caption h2, .work h2, .plus h2, .about h2, .contacts h2 {
-        font-size: 26px;
-    }
-    
-    .caption p {
-        font-size: 16px;
-    }
-    
-    .work p, .plus p, .contacts p {
-        font-size: 14px;
-    }
+  .intro-text h1 {
+    font-size: 40px;
+  }
+  
+  .intro-text p {
+    font-size: 20px;
+  }
+  
+  .caption h2, .work h2, .plus h2, .about h2, .contacts h2 {
+    font-size: 26px;
+  }
+  
+  .caption p {
+    font-size: 16px;
+  }
+  
+  .work p, .plus p, .contacts p {
+    font-size: 14px;
+  }
 }
