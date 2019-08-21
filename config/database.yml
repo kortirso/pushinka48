@@ -8,12 +8,12 @@ default: &default
 
 development:
   <<: *default
-  database: pushinka48
+  database: pushinka
 
 test:
   <<: *default
-  database: pushinka48
+  database: pushinka
 
 production:
   <<: *default
-  database: pushinka48
+  database: pushinka
