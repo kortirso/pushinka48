@@ -16,7 +16,7 @@ gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
 
 gem 'figaro'
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 gem 'autoprefixer-rails', '6.7.6'
 gem 'slim'
 
