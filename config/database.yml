@@ -1,19 +1,20 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  pool: <%= ENV.fetch('RAILS_MAX_THREADS') { 5 } %>
+  pool: 20
+  host: localhost
   port: 5432
-  username: <%= ENV['PUSHINKA_DATABASE_USERNAME'] %>
-  password: <%= ENV['PUSHINKA_DATABASE_PASSWORD'] %>
 
 development:
   <<: *default
-  database: pushinka
+  database: pushinka_development
 
 test:
   <<: *default
-  database: pushinka
+  database: pushinka_test
 
 production:
   <<: *default
   database: pushinka
+  username: pushinka
+  password: <%= ENV['PUSHINKA_DATABASE_PASSWORD'] %>
